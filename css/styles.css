@@ -36,6 +36,19 @@ body {
     background-color: #FFFFFF; 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container { 
     max-width: 1158px;
     margin: 0 auto;
@@ -132,8 +145,8 @@ position: relative;
     margin-right: auto;
 }
 
-.menu-item-link:hover,
-.menu-item-link:focus {
+.menu-link:hover,
+.menu-link:focus {
 color: #404bbf;
 }
 
@@ -506,19 +519,6 @@ background-color: #404BBF;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 .features-list {
     display: flex;
