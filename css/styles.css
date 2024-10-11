@@ -555,8 +555,6 @@ letter-spacing: 0.02em;
   .mailing-form {
     display: flex;
     gap: 24px;
-    width: 453px;
-    height: 80px;
   }
   
   .form-label {
@@ -584,7 +582,6 @@ letter-spacing: 0.02em;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
-    padding: 8px 16px;
   }
 
   .subscribe-button {
