@@ -595,5 +595,20 @@
         </div>
       </div>
 
+      <script>
+        const burgerButton = document.querySelector('.burger-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeButton = document.querySelector('.mobile-menu-close');
+      
+        burgerButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('is-open');
+        });
+      
+        closeButton.addEventListener('click', () => {
+          mobileMenu.classList.remove('is-open');
+        });
+      </script>
+      
+
 </body>
 </html>
